@@ -8,7 +8,7 @@ The minimax function is a recursive algorithm used to find the optimal move in a
 
 For each player, it tries all legal moves, pushes each move onto the board, calls minimax recursively for the other player, and updates the best move and evaluation found, while pruning branches where alpha is greater than or equal to beta. Alpha-beta pruning allows minimax to optimize the search process by ignoring branches that will not affect the final decision.
 
-## Dpendencies
+## Dependencies
 This assignment is written completely in python and makes use of the python chess library to manipulate and observe the gameplay.
 
 To install python chess library run:

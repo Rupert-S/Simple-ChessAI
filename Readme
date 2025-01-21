@@ -1,7 +1,0 @@
-This assignment is written completely in python and makes use of the python chess library to manipulate and observe the gameplay.
-
-To install python chess library run:
-pip install python-chess
-
-To start the game open terminal and enter: 
-python3 chess_agent.py
